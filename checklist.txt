@@ -1,0 +1,18 @@
++ User types the note, enter multiple tags, seperated by commas (“,”) then click Save.
++ User can browse through all the notes or browse by tags.
++ Do statistics and draw chart based on tags and the number of corresponding notes.
+
+ 
+Basic main success scenario flow
+1. (4 point) User launches the app. An icon  will be added to notification area. 
+	+ User can right click on it to see menu: View notes, View statitistics, Exit.
+- Exit menu, of course, will exit the app. (0.5 / 2. The points are just for menu command only)
+- View notes: A listbox / tree view will display all the tags, each tag has the number of notes corresponding with it. 
+When click on a tag, a list of all notes will be displayed briefly (around first 50 characters for preview) in a listbox or listview. 
+When click on an item on listbox / listview, the full content of the note will appear on a dialog or textbox. (3 / 4)
+- View statistics: Display chart based on tags and number of corresponding notes. (0.5 / 4. The points are just for menu command only) 	
+2. (1 points) User presses the shortcut key (like Windows + Space), a dialog will appear.
+3. (2 points) User types the note, enter multiple tags, seperated by commas (“,”) then click Save.
++ (1 point) Bonus: Tags are suggest based on priority of appearance frequency.
+4 (2 points) After a while of using our app, user can see the statistics chart based on tags & corresponding number of notes.
+ 
